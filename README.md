@@ -1,1 +1,40 @@
-# React-Mini-Shop-10-26
+# MiniShop – Final React Project
+
+## Overview
+
+Your task is to build a mini e-commerce app with two pages:
+
+- **Home Page**: Shows a list of products. Each product displays a name, price, and image. Users can add products to their cart.
+- **Cart Page**: Shows all the products that were added to the cart, along with their quantities and the total cost. Clicking “Checkout” should alert the user with the total price.
+
+## Goals
+
+- Make an API call to "https://api.escuelajs.co/api/v1/products" in order to get a list of products.  
+- Allow users to add products to a cart and view them on a separate page
+- Track quantity if a product is added more than once
+- Show the total cost of items in the cart
+- Alert the total when the user clicks “Checkout”
+- Navigate between pages using React Router
+
+## Setup
+
+You're free to organize your files however you like, but you’ll likely want:
+- Reusable components (e.g. `ProductCard`, `CartItem`)
+- Pages for Home and Cart
+- Shared state between pages (use `App.jsx` to lift state or Context)
+
+Good luck!
+
+## Stretch Goals
+
+- Add a simple login form using [Auth0](https://auth0.com/)
+- Add individual pages for product items that includes more of that product's information as well as customer reviews
+- Add the ability to search, filter by category (if using the given API, not all items have categories), filter by price (or anything else you can think of to filter by),  and sort through products 
+- Utilize Custom Hooks for repeated state logic
+- Only allow products to be added if the user is logged in
+- Use bootstrap icons like react-bootstrap-icons (or any other library with icons) [(react-bootstrap-icons)](https://github.com/ismamz/react-bootstrap-icons)
+- Include an Order History page that shows all previous orders made
+- Display a cart item count in the header
+- Redo the cart with Context or look into Redux (potentially create a serparate app for each!)
+- Look into having Stripe integration (or any 3rd party service that will simulate an actual payment)
+- Look into advanced styling (Tailwind or any other CSS library)
